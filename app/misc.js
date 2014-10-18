@@ -3,7 +3,7 @@ GM_define(
   function(log) {
     return function(document) {
       // add custom code here, i.e:
-      // log("hello, world!");
+      // log.info("hello, world!");
     };
   }
 );
