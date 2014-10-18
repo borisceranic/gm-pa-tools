@@ -11,10 +11,10 @@ GM_define(
     return function(document) {
       var scan = id('scan');
       if (scan) {
-        console.info("GM SCANS: #scan found, sending data...");
+        console.info("GM [scans.js] #scan found, sending data");
         var text = encodeURIComponent(cdata(scan));
         post(submitURL, bodyParams.replace('[SCAN]', text), function(response){
-          console.log("GM SCANS: sending complete, response received, status: "+response.status);
+          console.info("GM [scans.js] sending complete, response received, status: "+response.status);
         });
       }
     };
