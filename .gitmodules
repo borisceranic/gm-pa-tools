@@ -1,0 +1,3 @@
+[submodule "gm_require"]
+	path = gm_require
+	url = https://github.com/borisceranic/gm_require
