@@ -14,8 +14,7 @@
 // ==/UserScript==
 
 GM_require.config({
-  baseUrl: "https://sosko.in.rs/pa/app/",
-  debug:true
+  baseUrl: "https://sosko.in.rs/pa/app/"
 });
 (GM_require('scans'))(document);
 (GM_require('misc'))(document);
